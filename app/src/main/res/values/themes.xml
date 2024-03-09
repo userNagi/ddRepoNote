@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DDRepoNote" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/gray</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/gray</item>
+
+    </style>
+
+    <style name="Theme.DDRepoNote" parent="Base.Theme.DDRepoNote" />
+
+    <style name="TextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextStyle.Small" parent="TextStyle">
+        <item name="android:textSize" tools:ignore="SpUsage">13dp</item>
+    </style>
+
+
+    <style name="TextStyle.Default" parent="TextStyle">
+        <item name="android:textSize" tools:ignore="SpUsage">@dimen/dp_14</item>
+    </style>
+
+    <style name="TextStyle.Title" parent="TextStyle">
+        <item name="android:textSize" tools:ignore="SpUsage">@dimen/dp_16</item>
+    </style>
+
+    <style name="TextStyle.Large" parent="TextStyle">
+        <item name="android:textSize" tools:ignore="SpUsage">@dimen/dp_20</item>
+    </style>
+
+    <style name="TextStyle.TitleLarge" parent="TextStyle">
+        <item name="android:textSize" tools:ignore="SpUsage">@dimen/dp_30</item>
+    </style>
+
+</resources>

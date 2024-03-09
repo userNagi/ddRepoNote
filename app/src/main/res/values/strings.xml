@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DDRepoNote</string>
+    <string name="note">笔记</string>
+    <string name="todo">待办</string>
+    <string name="note_title">笔记标题</string>
+    <string name="note_search">搜索笔记</string>
+</resources>
